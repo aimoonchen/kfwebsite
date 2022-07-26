@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 html: `
-                    <div style="width:300px;margin:0 auto; padding:20px 0;">
+                    <div style="text-align:center;width:300px;margin:0 auto; padding:20px 0;">
                       <a target="_blank" href="http://beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤ICP备 2021092476号</p></a>
                       <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010502002044" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤公网安备 44010502002044号</p></a>
                      </div>
