@@ -11,8 +11,8 @@ export default class List extends Component {
         const showcaseinfo = [
             {image:"img/showcase/Demo.png", title: "Technique Demo", discription: "Baked lighting, PBR, Terrain and water, FairyGUI, Effekseer.", path: "/showcase/demo"},
             {image:"img/showcase/MobaGame.png", title: "MobaGame", discription: "A moba game demo.", path: "/showcase/mobagame"},
-            {image:"img/showcase/Android.png", title: "Android", discription: "Android KFPlayer", path: "/showcase/none"},
-            {image:"img/showcase/iOS.png", title: "iOS", discription: "iOS KFPlayer", path: "/showcase/none"},
+            {image:"img/showcase/Android.png", title: "Android", discription: "Android KFPlayer", path: "/showcase"},
+            {image:"img/showcase/iOS.png", title: "iOS", discription: "iOS KFPlayer", path: "/showcase"},
         ];
         return (
             <div>

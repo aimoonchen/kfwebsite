@@ -86,7 +86,7 @@ function ShowSandbox() {
         </div>
         <br/>
       </div>
-      <img className="shadow-lg d-block mx-auto mb-4 rounded" src="/img/sandbox.png"/>
+      <img className="shadow-lg d-block mx-auto mb-4 rounded" src="/img/kfstudio.png"/>
     </div>
   );
 }
@@ -127,7 +127,7 @@ export default function HomepageFeatures() {
           </a>
         </Col>
         <Col className="col-md-6 order-md-1">
-          <img className="shadow bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="/img/effekseer.png" style={{width:"640px", height:"360px", background:"#eee", color:"#aaa"}} />
+          <img className="shadow bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="/img/effekseereditor.png" style={{width:"640px", height:"360px", background:"#eee", color:"#aaa"}} />
         </Col>
       </Row>
       <hr className="featurette-divider"/>
@@ -141,7 +141,7 @@ export default function HomepageFeatures() {
           </a>
         </Col>
         <Col className="col-md-6">
-          <img className="shadow bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="/img/fairygui.png" style={{width:"618px", height:"320px", background:"#eee", color:"#aaa"}} />
+          <img className="shadow bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" src="/img/fairyguieditor.png" style={{width:"618px", height:"320px", background:"#eee", color:"#aaa"}} />
         </Col>
       </Row>
       <hr className="featurette-divider"/>
