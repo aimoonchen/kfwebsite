@@ -40,6 +40,8 @@ function HomepageHeader() {
   };
 
   return (
+    <div>
+    {/* <div style={{backgroundColor: "#1b1b1d"}}> */}
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
@@ -93,6 +95,7 @@ function HomepageHeader() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
@@ -103,6 +106,7 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
+      {/* <main style={{backgroundColor: "#1b1b1d"}}> */}
       <main>
         <HomepageFeatures />
       </main>

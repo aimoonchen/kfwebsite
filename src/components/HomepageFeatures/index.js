@@ -52,7 +52,8 @@ function Feature({Svg, title, description}) {
 
 function KFEngineFeatures() {
   return (
-    <section className={styles.features}>
+    <div className={styles.features}>
+    {/* <div className={styles.features} style={{backgroundColor: "#1b1b1d"}}> */}
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
@@ -60,7 +61,7 @@ function KFEngineFeatures() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
