@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 //import { Link, useLocation } from "react-router-dom";
 import Link from '@docusaurus/Link';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import local_css from './index.module.css'
@@ -39,20 +42,22 @@ export default class Scene extends Component {
         current_script_filename = this.props.path + "/main.js"//this.props.location.state.path + "/examplesRelease.js"
         console.log(current_script_filename)
         return (
-            <div>
-                <div className={local_css.spinner} id='spinner'></div>
-                <div className={local_css.status} id="status">Downloading...</div>
-                <div className={local_css.emscripten}>
-                    <progress className={local_css.progress} value="0" max="100" id="progress" hidden={1}></progress>
-                </div>
-                <div class={local_css.emscripten_border}>
-                    <canvas className={local_css.emscripten} id="canvas" onContextMenu={this.handleContextMenu} tabindex={-1}></canvas>
-                </div>
-                <textarea className={local_css.output} id="output" rows="8"></textarea>
-                <Link to="/showcase">
-				    <Button variant="primary">Back</Button>
-			    </Link>
-            </div>
+            <Container fluid="xl">
+                <Row>
+                    <Col>
+                        <div className={local_css.spinner} id='spinner'></div>
+                        <div className={local_css.status} id="status">Downloading...</div>
+                        <div className={local_css.emscripten}>
+                            <progress className={local_css.progress} value="0" max="100" id="progress" hidden={1}></progress>
+                        </div>
+                        <canvas className={local_css.emscripten_canvas} id="canvas" onContextMenu={this.handleContextMenu} tabindex={-1}></canvas>
+                        <textarea className={local_css.output} id="output" rows="8"></textarea>
+                        <Link to="/showcase">
+                            <Button variant="primary">Back</Button>
+                        </Link>
+                    </Col>
+                </Row>
+            </Container>
         )
     }
 }
