@@ -27,8 +27,8 @@ export default class List extends Component {
                 </Switch> */}
                 <Container fluid="md">
                     <Row className="g-4" style = {{marginLeft:"5%", marginRight:"5%"}}>
-                        {showcaseinfo.map((item, idx) => (
-                            <Col>
+                        {showcaseinfo.map((item, index) => (
+                            <Col key={index}>
                                 <Card style = {{width:"512px"}}>
                                     <Card.Img variant="top" src={item.image} />
                                     <Card.Body>

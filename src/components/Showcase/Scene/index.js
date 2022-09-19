@@ -50,7 +50,7 @@ export default class Scene extends Component {
                         <div className={local_css.emscripten}>
                             <progress className={local_css.progress} value="0" max="100" id="progress" hidden={1}></progress>
                         </div>
-                        <canvas className={local_css.emscripten_canvas} id="canvas" onContextMenu={this.handleContextMenu} tabindex={-1}></canvas>
+                        <canvas className={local_css.emscripten_canvas} id="canvas" onContextMenu={this.handleContextMenu} tabIndex={-1}></canvas>
                         <textarea className={local_css.output} id="output" rows="8"></textarea>
                         <Link to="/showcase">
                             <Button variant="primary">Back</Button>
