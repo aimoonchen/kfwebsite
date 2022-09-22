@@ -1,6 +1,7 @@
 .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
 .emscripten_border { border: 1px solid black; }
-.emscripten_canvas { border: 1px solid black; padding-right: 0; margin-left: auto; margin-right: auto; display: block;}
+.emscripten_canvas { width: 100%; aspect-ratio: 16 / 9; }
+/* .emscripten_canvas { border: 1px solid black; padding-right: 0; margin-left: auto; margin-right: auto; display: block;} */
 .spinner {
     height: 30px;
     width: 30px;
